@@ -1,0 +1,20 @@
+#include<stdio.h>
+#include<stdlib.h>
+void main(){
+    int size;
+    int x;
+    scanf("%d",&size);
+    int arr[size];
+    for(int i=0;i<size;i++)
+    {
+        scanf("%d",&arr[i]);
+    }
+    scanf("%d",&x);
+    for(int j=0;j<size;j++)
+    {
+        if(arr[j]==x)
+        {
+            printf("%d",j);
+        }
+    }
+}
